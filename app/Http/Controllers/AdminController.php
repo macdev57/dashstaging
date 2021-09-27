@@ -9,14 +9,14 @@ use App\Models\User;
 class AdminController extends Controller
 {
     function index(){
-        return view('dashboards.admins.index');
+        return view('Dashboards.admins.index');
     }
 
     function profile(){
-        return view('dashboards.admins.profile');
+        return view('Dashboards.admins.profile');
     }
     function settings(){
-        return view('dashboards.admins.settings');
+        return view('Dashboards.admins.settings');
     }
 
     function updateInfo(Request $request){
