@@ -7,13 +7,13 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     function index(){
-        return view('dashboards.users.index');
+        return view('Dashboards.users.index');
     }
 
     function profile(){
-        return view('dashboards.users.profile');
+        return view('Dashboards.users.profile');
     }
     function settings(){
-        return view('dashboards.users.settings');
+        return view('Dashboards.users.settings');
     }
 }
